@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
+}
+.nav{
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to right,#672280, #A626D3);
+}
+.img-icon{
+    width: 60px;
+}
+.title{
+    color: white;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+.title-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title2{
+    color: white;
+    text-transform: capitalize;
+}
+.main-body{
+    margin: 40px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: 20px 0px;
+}
+.inputs input{
+
+    width: 100%;
+    /* width: 200px; */
+    padding: 10px;
+    /* height: 25px; */
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.inputs input:nth-child(1){
+    margin-right: 20px;
+}
+.inputs input:nth-child(2){
+    margin-left: 20px;
+}
+.btn-den{
+    width: 100%;
+    padding: 12px;
+    background-image: linear-gradient(to right,#672280, #A626D3);
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.meme-img{
+    margin-top: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+.img-cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    font-size: 23px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    text-align: center;
+    text-shadow: -1px 1px 3px #000,
+                          1px 1px 3px #000,
+                         1px -1px 3px #000,
+                        -1px -1px 3px #000;
+    color: white;
+    /* left: 48%; */
+    /* right: 50%; */
+}
+.bottom{
+    font-size: 23px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    text-shadow: -1px 1px 3px #000,
+                          1px 1px 3px #000,
+                         1px -1px 3px #000,
+                        -1px -1px 3px #000;
+    /* border: 1px solid black; */
+    color: white;
+    /* left: 48%; */
+    /* right: 50%; */
+}
